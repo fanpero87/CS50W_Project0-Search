@@ -1,0 +1,448 @@
+
+body, td, a, p, .h{
+font-family: arial, sans-serif	
+}
+
+/* Style for both links on top */
+.gb_Xa{
+min-width: 165px;
+padding-left: 30px;
+padding-right: 30px;
+position: relative;
+text-align: right;
+z-index: 986;
+align-items: center;
+justify-content: flex-end;
+}
+.gb_h.gb_i{
+display: none;
+padding-left: 15px;
+vertical-align: middle;	
+}
+.gb_Og.gb_Og .gb_h{
+display: inline-block;
+}
+
+.gb_6f .gb_Xa{
+min-width: 0;
+}
+.gb_g{
+color:rgba(0,0,0,.87);
+font-size: 15px;
+text-decoration: none;	
+}
+
+.gb_pos{
+text-align: right;
+right: 20px;
+position: absolute;
+top: 20px;
+}
+.gb_pos1{
+text-align: right;
+right: 150px;
+position: absolute;
+top: 20px;
+}
+
+
+/* Style for the Google Logo */
+#lga{
+height:233px;
+margin-top:89px
+}
+@media only screen and (max-height:768px){#lga{margin-top:47px}}
+
+
+/* Style for the Microphone icon */
+.hpuQDe{
+flex:1 0 auto;
+display:flex;
+cursor:pointer;
+align-items:center;
+border:0;
+background:transparent;
+outline:none;
+padding:0 8px;
+width:24px;
+line-height:44px
+}
+.HPVvwb{
+height:24px;
+width:24px;
+vertical-align:middle
+}
+.minidiv .hpuQDe{
+line-height:32px
+}
+.minidiv .HPVvwb{
+width:20px;height:20px
+}
+
+
+/* Style for the magnify icon */
+.hsuHs{
+margin:auto
+}
+.wFncld{
+margin-top:3px;
+color:#9AA0A6;
+height:20px;
+width:20px
+}
+.z1asCe{
+display:inline-block;
+fill:currentColor;
+height:24px;
+line-height:24px;
+position:relative;
+width:24px
+}
+.iblpc{
+display:flex;
+align-items:center;
+padding-right:13px;
+margin-top:-5px
+}
+.minidiv .iblpc{
+margin-top:0
+}
+.dRYYxd{
+display:flex;
+flex:0 0 auto;
+margin-top:-5px;
+align-items:stretch;
+flex-direction:row
+}
+.minidiv .dRYYxd{
+margin-top:0
+}
+
+
+/* Style Search buttons */
+.FPdoLc{
+padding-top:18px;
+top:53px;
+z-index:0;
+width:487px
+}
+#searchform.big .FPdoLc{
+width:571px
+}
+.tfB0Bf{
+height:70px
+}
+.tfB0Bf input[type="submit"],.gbqfba{
+background-image:-webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+background-color:#f2f2f2;
+border:1px solid #f2f2f2;
+border-radius:4px;color:#5F6368;
+font-family:arial,sans-serif;
+font-size:14px;
+margin:11px 4px;
+padding:0 16px;
+line-height:27px;
+height:36px;
+min-width:54px;
+text-align:center;
+cursor:pointer;
+user-select:none
+}
+.tfB0Bf input[type="submit"]:hover{
+box-shadow:0 1px 1px rgba(0,0,0,0.1);
+background-image:-webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+background-color:#f8f8f8;border:1px solid #c6c6c6;
+color:#222
+}
+.tfB0Bf input[type="submit"]:focus{
+border:1px solid #4d90fe;outline:none
+}
+
+
+/* Style for the text box */
+.pR49Ae{
+color:transparent;
+flex:100%;
+white-space:pre;
+height:34px
+}
+.pR49Ae span{
+background:url("/images/experiments/wavy-underline.png") repeat-x scroll 0 100% transparent;
+padding:0 0 10px 0;
+}
+.gLFyf{
+background-color:transparent;
+border:none;
+margin:0;
+padding:0;
+color:rgba(0,0,0,.87);
+word-wrap:break-word;
+outline:none;
+display:flex;
+flex:100%;
+-webkit-tap-highlight-color:transparent;
+margin-top:-37px;
+height:34px;
+font-size:16px
+}
+.minidiv .gLFyf{
+margin-top:-35px;
+}
+.gsfi,.lst{
+font:16px arial,sans-serif;
+line-height:34px;
+height:34px !important
+}
+.a4bIc{
+display:flex;
+flex:1;
+flex-wrap:wrap
+}
+
+
+/* Style for the search bar */
+.RNNXgb{
+background:#fff;
+display:flex;
+border:1px solid #dfe1e5;
+box-shadow:none;
+border-radius:24px;
+z-index:3;
+height:44px;
+margin:0 auto;
+width:482px;
+}
+.minidiv .RNNXgb{
+height:32px;
+border-radius:16px;
+margin:10px 0 0
+}
+.emcav .RNNXgb{
+border-bottom-left-radius:0;
+border-bottom-right-radius:0;
+border-color:rgba(223,225,229,0);
+box-shadow:0 1px 6px 0 rgba(32,33,36,0.28)
+}
+.minidiv .emcav .RNNXgb{
+border-bottom-left-radius:0;
+border-bottom-right-radius:0
+}
+.emcav.emcat .RNNXgb{
+border-bottom-left-radius:24px;
+border-bottom-right-radius:24px
+}
+.minidiv .emcav.emcat .RNNXgb{
+border-bottom-left-radius:16px;
+border-bottom-right-radius:16px
+}
+.RNNXgb:hover,.sbfc .RNNXgb{
+box-shadow:0 1px 6px 0 rgba(32,33,36,0.28);
+border-color:rgba(223,225,229,0)
+}
+#searchform.big .RNNXgb{
+width:582px;
+}
+.SDkEP{flex:1;display:flex;
+padding:5px 8px 0 16px;
+padding-left:14px;
+}
+.minidiv .SDkEP{
+padding-top:0
+}
+
+
+/* Style for Google offered in: Français */
+#SIvCob{
+display:inline-block;
+line-height:28px;
+}
+#SIvCob a{
+padding:0 3px;
+}
+
+
+/* Style for the Canada at the bottom */
+#fbarcnt{
+display:block;
+}
+.EvHmz{
+bottom:0;
+left:0;
+position:absolute;
+right:0
+}
+.hRvfYe :hover{
+text-decoration:underline
+}
+.hRvfYe a:hover{
+text-decoration:underline
+}
+.fbar a{
+text-decoration:none;
+white-space:nowrap
+}
+.fbar{
+margin-left:-27px
+}
+.fbar p,.fbar a,{
+color:#5f6368
+}
+.fbar a:hover{
+color:#333
+}
+#fbar{
+background:#f2f2f2;
+line-height:40px;
+min-width:980px;
+border-top:1px solid #e4e4e4;
+}
+.b2hzT{
+border-bottom:1px solid #e4e4e4
+}
+.b0KoTc{
+color:rgba(0,0,0,.54);
+padding-left:27px;
+margin-left:30px;
+text-align:left;
+font-size:20px
+}
+
+
+/* Style for the Canada at the bottom */
+.logo-subtext{
+color:rgb(66,133,244);
+position: relative;
+white-space: nowrap;	
+}							
+
+
+/* Style for the Camara icon */
+.LM8x9c{
+display:inline-block;
+background-repeat: no-repeat;
+opacity: 0.5;
+
+}
+
+
+/* Styles dor the Advance page*/
+.gb_9f{
+background: #f1f1f1;
+font: 13px/27px Arial, sans-serif;
+position: relative;
+height: 70px;
+width: 100%;
+}
+.gb_Og{
+margin-left: 0 !important;
+margin-right: 0 !important;
+white-space: nowrap;
+}	
+.appbar {
+color: #d93025;
+font-size: 20px;
+margin:25px 35px
+}
+.img{
+width: 16%;
+height: 60px;	
+}
+.down{
+padding-top: 7px;
+padding-bottom: 10px;
+padding-left: 40px;	
+}
+.gy3Eif {
+border-bottom:2px solid #ebebeb;
+padding-top 20px;
+padding-bottom: 1px;
+} 
+div.yIQOUb {
+clear:both
+}
+div.yIQOUb input.dUBGpe {
+float: right;
+margin:10px 0
+}
+div.FAcADc {
+float: left;
+display: inline-block;
+min-width: 167px;
+width: 16%;
+height: 42px;
+color: #222;
+font-size: 14px;
+line-height: 16px;
+vertical-align:middle
+}
+div.lOTAE {
+height: 30px;
+display: table-cell;
+vertical-align: middle
+}
+div.jYcx0e {
+float: left;
+display: inline-block;
+min-width: 167px;
+min-height: 41px;
+vertical-align: middle;
+width:50%
+}
+.otByu{
+padding-top: 30px;
+padding-left: 45px;	
+}
+div.otByu div.jYcx0e input[type="text"], div.otByu div.jYcx0e span.PnexQd {
+width: 100%;
+text-align:left
+}
+div.otByu div.jYcx0e select {
+width: 100%;
+height: 29px;
+font-weight: 700;
+font-size: 11px;
+background-color: #eee;
+line-height: 27px;
+padding-left: 4px;
+color: #333;
+border: 1px solid #d9d9d9;
+border-top: 1px solid #c0c0c0;
+display: inline-block;
+vertical-align: top;
+padding-left: 2px;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-border-radius:1px
+}
+div.PLLUQc {
+padding-right:16px
+}
+div.otByu div.cwqNnb {
+float: left;
+display: inline-block;
+width: 32%;
+min-width: 160px;
+margin: 0 0 8px 1%;
+color: #555;
+font-size: 13px;
+padding-left: 5px;
+vertical-align: middle;
+position:relative
+}
+div.otByu div.cwqNnb span.BFlQMb {
+color: #666;
+font-family: monospace;
+font-size: 11px;
+white-space:pre
+}
+
+
+
+
+
+
+
+
+
+
+
