@@ -1,4 +1,7 @@
 # CS50's Web Programming with Python and JavaScript (2020)
-## I still have to remember what this does!
+
+Project 0: Search
+
+What to do: Design a front-end for Google Search, Google Image Search, and Google Advanced Search
 
 [How it works] (https://www.youtube.com/watch?v=GARqdN4P2A8&t=2s)
